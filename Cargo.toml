@@ -1,0 +1,7 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Robbie McKinstry <rem89@pitt.edu>"]
+
+[dependencies]
+regex = "0.1"
