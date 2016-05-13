@@ -1,3 +1,7 @@
 x = 5
 y = x
-goto 1
+z = x + y
+goto 6
+z = x - y
+a = 2 * z
+b = x * y
