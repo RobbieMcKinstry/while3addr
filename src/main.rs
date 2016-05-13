@@ -52,7 +52,7 @@ fn main() {
             } else if split[0] == "if" {
 
                 let x = split[1].to_string();
-                let n = split[3].parse::<i32>().unwrap();
+                let n = split[5].parse::<i32>().unwrap();
 
                 // need to parse the opr
                 let opr: Opr = if split[2] == "<" {
